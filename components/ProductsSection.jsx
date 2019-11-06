@@ -1,6 +1,6 @@
 import React from 'react';
 import TabAllButton from "./TabAllButton";
-// import ProductList from './ProductsList';
+import ProductList from './ProductsList';
 
 
 function ProductsSection({ headingTitle }) {
@@ -21,7 +21,7 @@ function ProductsSection({ headingTitle }) {
 
                     <div className="col-md-12">
                         <div className="row">
-                            {/* <ProductList /> */}jj
+                            <ProductList />
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,8 @@
 
 import React, { Component, Fragment } from 'react';
+import  {Provider}  from 'react-redux';
 import '../styles/style.scss';
+import store from '../store';
 import Header from '../Components/Header';
 import ProductsSection from '../Components/ProductsSection'
 import ProductsDetails from '../Components/ProductsDetails'
@@ -19,6 +21,7 @@ class Home extends Component {
   render() {
 
     return (
+      <Provider store={store}>
       <Fragment>
         <Header />
         <ProductsSection headingTitle="Discover the products line"/>
@@ -26,6 +29,7 @@ class Home extends Component {
         <ProductsShop headingTitle="Bundles of awesomeness!"/>
 
        </Fragment>
+       </Provider>
     );
   }
 }
