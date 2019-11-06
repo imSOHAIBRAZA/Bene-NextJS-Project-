@@ -1,0 +1,25 @@
+.header__content{
+    color: $golden;
+    margin-top: 5%
+}
+
+.header__title{
+  line-height: 1
+} 
+
+.header__description{
+    padding-Left: 8%;
+    text-align: justify;
+    font-size: 17px
+}
+
+.header__button{
+     display: inline;
+     span{
+        border: 1px solid;
+        padding: 20px 50px
+     }
+}
+
+
+
