@@ -1,6 +1,7 @@
 
 import React, { Component, Fragment } from 'react';
 import  {Provider}  from 'react-redux';
+import Head from 'next/head'
 import '../styles/style.scss';
 import store from '../store';
 import Header from '../Components/Header';
@@ -23,6 +24,11 @@ class Home extends Component {
     return (
       <Provider store={store}>
       <Fragment>
+      <Head>
+      <title>Home</title>
+      <link rel='icon' href='/favicon.ico' />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    </Head>
         <Header />
         <ProductsSection headingTitle="Discover the products line"/>
         <ProductsDetails title="bene" subTitle="organically grown hemp extract"/>
