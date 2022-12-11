@@ -14,7 +14,7 @@
     "@zeit/next-stylus": "^1.0.1",
     "antd": "^3.25.0",
     "bootstrap": "^4.3.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jquery": "^3.4.1",
     "next": "9.1.2",
     "popper.js": "^1.16.0",
